@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/nav_group1"
+        >
+        <item
+            android:id="@+id/sale_activity"
+            android:title="销售报表" />
+        <item
+            android:id="@+id/supply_activity"
+            android:title="全部供货列表" />
+        <item
+            android:id="@+id/step_activity"
+            android:title="全部生产工序" />
+        <item
+            android:id="@+id/electric_activity"
+            android:title="供电列表" />
+        <item
+            android:id="@+id/news_activity"
+            android:title="汽车资讯" />
+    </group>
+    <group
+        android:id="@+id/nav_group2"
+        >
+        <item
+            android:id="@+id/nav_exit"
+            android:title="退出" />
+    </group>
+</menu>

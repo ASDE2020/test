@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/line_layout"
+    >
+
+    <TextView
+        android:id="@+id/id_list"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="ID"
+        android:textSize="@dimen/lineContentSize" />
+
+    <TextView
+        android:id="@+id/processName_list"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="ID"
+        android:textSize="@dimen/lineContentSize" />
+
+    <TextView
+        android:id="@+id/processContent_list"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="ID"
+        android:textSize="@dimen/lineContentSize" />
+
+    <TextView
+        android:id="@+id/processProduction_list"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="ID"
+        android:textSize="@dimen/lineContentSize" />
+
+    <TextView
+        android:id="@+id/processNext_list"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="ID"
+        android:textSize="@dimen/lineContentSize" />
+
+
+</LinearLayout>
